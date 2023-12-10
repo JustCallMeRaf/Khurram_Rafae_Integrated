@@ -1,0 +1,1427 @@
+/*
+Couples Resort Responsive Build
+4 column grid as per XD file
+ */
+
+/* 
+    CSS Guide 
+
+    1.  General Styles
+    2.  Main Nav
+    3.  Main Hero Image
+    4.  Main Hero Image Contact
+    5.  Why Couples Resort
+    6.  About & FAQ
+    7.  Contact Form
+    8.  Footer 
+ */
+
+
+ /* 1. ---General Styles--- */
+
+ #mobile-outline {
+    outline: 20px solid #333;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ } 
+ 
+ body {
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+ }
+ 
+ a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+ 
+ input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .cr-red {
+    color: #9a2018;
+ }
+ 
+ 
+ /* 2. ---Main Nav--- */
+ 
+  #main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+ } 
+ 
+ #main-nav input, #burger-con {
+    display: none;
+ }
+ 
+ 
+ /*   ~ sibling selector   */
+ 
+ 
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+ 
+ #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+ 
+ 
+ #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 10px;
+ } 
+ 
+ 
+ 
+ #logo {
+    margin-bottom: 20px;
+    max-width: 382px;
+ }
+ 
+ 
+ /* 3. ---Main Hero Image--- */
+ 
+ #hero {
+    background: url(/images/50bbbc182f77229dcde82857925eee88.jpg) no-repeat;
+    height: 200px;
+ }
+ 
+ .book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+ }
+ 
+ .book-now:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ #book-now-hero {
+    height: 67px;
+ }
+ 
+ #hero-heading-box {
+    align-self: end;
+ }
+ 
+ .hero-img-h2, .hero-img-h3 {
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 14px;
+ }
+ 
+ .hero-img-h2 span,  .hero-img-h3 span {
+    color: #9a2018;
+    font-size: 12px;
+ }
+ 
+ .line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+ }
+ 
+ #hero-summary p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+ 
+
+#Artboard__1 {
+    position: absolute;
+    width: 412px;
+    height: 5516px;
+    left: 746px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Artboard – 1;
+    --web-view-id: Artboard__1;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+
+#Line_33 {
+    fill: transparent;
+    stroke: rgba(154,32,24,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_33 {
+    overflow: visible;
+    position: absolute;
+    width: 412px;
+    height: 3px;
+    left: 0px;
+    top: 888px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_34 {
+    fill: transparent;
+    stroke: rgba(154,32,24,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_34 {
+    overflow: visible;
+    position: absolute;
+    width: 412px;
+    height: 3px;
+    left: 0px;
+    top: 909px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_35 {
+    fill: transparent;
+    stroke: rgba(154,32,24,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_35 {
+    overflow: visible;
+    position: absolute;
+    width: 412px;
+    height: 3px;
+    left: 0px;
+    top: 930px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_36 {
+    fill: transparent;
+    stroke: rgba(154,32,24,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_36 {
+    overflow: visible;
+    position: absolute;
+    width: 412px;
+    height: 3px;
+    left: 0px;
+    top: 951px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_37 {
+    fill: transparent;
+    stroke: rgba(154,32,24,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_37 {
+    overflow: visible;
+    position: absolute;
+    width: 412px;
+    height: 3px;
+    left: 0px;
+    top: 972px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_38 {
+    fill: transparent;
+    stroke: rgba(154,32,24,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_38 {
+    overflow: visible;
+    position: absolute;
+    width: 412px;
+    height: 3px;
+    left: 0px;
+    top: 993px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_39 {
+    fill: transparent;
+    stroke: rgba(154,32,24,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_39 {
+    overflow: visible;
+    position: absolute;
+    width: 412px;
+    height: 3px;
+    left: 0px;
+    top: 1014px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_66 {
+    fill: rgba(154,32,24,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_66 {
+    position: absolute;
+    overflow: visible;
+    width: 412px;
+    height: 27px;
+    left: 0px;
+    top: 23px;
+}
+#GOURMET_MEALS__WINE {
+    left: 73px;
+    top: 25px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#CHEF_RONNIE_TRANSLATION__GOURM {
+    left: 12px;
+    top: 63px;
+    position: absolute;
+    overflow: visible;
+    width: 391px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#WINE_SPECTATORS_AWARD_OF_EXCEL {
+    left: 33px;
+    top: 154px;
+    position: absolute;
+    overflow: visible;
+    width: 348px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(0,0,0,1);
+}
+#Executive_Chef_Ronnie_Coppens_ {
+    left: 13px;
+    top: 99px;
+    position: absolute;
+    overflow: visible;
+    width: 387px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.5px;
+    color: rgba(0,0,0,1);
+}
+#If_you_like_Sommeliers_will_he {
+    left: 13px;
+    top: 186px;
+    position: absolute;
+    overflow: visible;
+    width: 387px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.5px;
+    color: rgba(0,0,0,1);
+}
+#Rectangle_68 {
+    fill: rgba(237,237,237,1);
+}
+.Rectangle_68 {
+    position: absolute;
+    overflow: visible;
+    width: 412px;
+    height: 128px;
+    left: 0px;
+    top: 257px;
+}
+#Rectangle_82 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_82 {
+    position: absolute;
+    overflow: visible;
+    width: 63px;
+    height: 41px;
+    left: 175px;
+    top: 304px;
+}
+#Ellipse_4 {
+    fill: rgba(92,92,92,1);
+}
+.Ellipse_4 {
+    position: absolute;
+    overflow: visible;
+    width: 6px;
+    height: 6px;
+    left: 190px;
+    top: 313px;
+}
+#Union_4 {
+    fill: rgba(92,92,92,1);
+}
+.Union_4 {
+    overflow: visible;
+    position: absolute;
+    width: 27.551px;
+    height: 19px;
+    left: 192.225px;
+    top: 316px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_69 {
+    fill: rgba(154,32,24,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_69 {
+    position: absolute;
+    overflow: visible;
+    width: 412px;
+    height: 27px;
+    left: 0px;
+    top: 411px;
+}
+#GOURMET_DINING {
+    left: 113px;
+    top: 412px;
+    position: absolute;
+    overflow: visible;
+    width: 187px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#n_00_am_to_1030_am_Best_to_pla {
+    left: 164px;
+    top: 453px;
+    position: absolute;
+    overflow: visible;
+    width: 233px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#Extra_charge_Daily_from_1200_- {
+    left: 156px;
+    top: 505px;
+    position: absolute;
+    overflow: visible;
+    width: 249px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#n_00_pm_to_800_pm_to_900_pm_Fr {
+    left: 113px;
+    top: 545px;
+    position: absolute;
+    overflow: visible;
+    width: 297px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#Rectangle_71 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_71 {
+    position: absolute;
+    overflow: visible;
+    width: 446px;
+    height: 51px;
+    left: -22px;
+    top: 596px;
+}
+#PATIO_SERVICES_LUNCH_ONLY_Plea {
+    left: 35px;
+    top: 599px;
+    position: absolute;
+    overflow: visible;
+    width: 331px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#Rectangle_72 {
+    fill: rgba(154,32,24,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_72 {
+    position: absolute;
+    overflow: visible;
+    width: 412px;
+    height: 204px;
+    left: 0px;
+    top: 653px;
+}
+#ALL_ROOM_PRICES_INCLUDE_DAILY_ {
+    left: 6px;
+    top: 659px;
+    position: absolute;
+    overflow: visible;
+    width: 401px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.5px;
+    color: rgba(255,255,255,1);
+}
+#Line_26 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_26 {
+    overflow: visible;
+    position: absolute;
+    width: 24px;
+    height: 1px;
+    left: 194px;
+    top: 721px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_79 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_79 {
+    position: absolute;
+    overflow: visible;
+    width: 172px;
+    height: 21px;
+    left: 120px;
+    top: 728px;
+}
+#n__amuse_bouche_2_Starters_eit {
+    left: 43px;
+    top: 752px;
+    position: absolute;
+    overflow: visible;
+    width: 327px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(255,255,255,1);
+}
+#are_available_we_offer_a_large {
+    left: 32px;
+    top: 809px;
+    position: absolute;
+    overflow: visible;
+    width: 349px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(255,255,255,1);
+}
+#Rectangle_73 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_73 {
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    height: 21px;
+    left: 116px;
+    top: 785px;
+}
+#Gastronomic_5_Course_Meal {
+    left: 127px;
+    top: 731px;
+    position: absolute;
+    overflow: visible;
+    width: 159px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#Vegan_and_Vegetarian_dishes {
+    left: 122px;
+    top: 788px;
+    position: absolute;
+    overflow: visible;
+    width: 169px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#BREAKFAST_-_800_-_1030_AM {
+    left: 16px;
+    top: 954px;
+    position: absolute;
+    overflow: visible;
+    width: 181px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#LUNCH_-_1200_-_400_PM {
+    left: 16px;
+    top: 1326px;
+    position: absolute;
+    overflow: visible;
+    width: 151px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#Vegans__Vegetarians_ask_to_tal {
+    left: 3px;
+    top: 1021px;
+    position: absolute;
+    overflow: visible;
+    width: 407px;
+    white-space: nowrap;
+    cursor: pointer;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Artboard___4.html;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8.5px;
+    color: rgba(0,0,0,1);
+}
+#n_69383bca2cbf05c3f9656d00ddef {
+    position: absolute;
+    width: 412px;
+    height: 196px;
+    left: 0px;
+    top: 1040px;
+    overflow: visible;
+}
+#Mountain_Image {
+    position: absolute;
+    width: 63px;
+    height: 41px;
+    left: 178px;
+    top: 1114px;
+    overflow: visible;
+}
+#Union_1 {
+    fill: rgba(92,92,92,1);
+}
+.Union_1 {
+    overflow: visible;
+    position: absolute;
+    width: 27.551px;
+    height: 19px;
+    left: 18.449px;
+    top: 11px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_37 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_37 {
+    position: absolute;
+    overflow: visible;
+    width: 63px;
+    height: 41px;
+    left: 0px;
+    top: 0px;
+}
+#Ellipse_1 {
+    fill: rgba(92,92,92,1);
+}
+.Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 6px;
+    height: 6px;
+    left: 15px;
+    top: 10px;
+}
+#weekday-hotel-lunch-buffets-Su {
+    position: absolute;
+    width: 206px;
+    height: 196px;
+    left: 0px;
+    top: 1242px;
+    overflow: visible;
+}
+#Brownies {
+    position: absolute;
+    width: 203px;
+    height: 196px;
+    left: 209px;
+    top: 1242px;
+    overflow: visible;
+}
+#Couples_Resort_139_Galeairy_La {
+    left: 89px;
+    top: 1448px;
+    position: absolute;
+    overflow: visible;
+    width: 235px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#Rectangle_77 {
+    fill: rgba(154,32,24,1);
+}
+.Rectangle_77 {
+    position: absolute;
+    overflow: visible;
+    width: 192px;
+    height: 27px;
+    left: 110px;
+    top: 1486px;
+}
+#CALL_1_866_202-1179 {
+    left: 127px;
+    top: 1490px;
+    position: absolute;
+    overflow: visible;
+    width: 159px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(237,237,237,1);
+}
+#Rectangle_80 {
+    fill: rgba(154,32,24,1);
+}
+.Rectangle_80 {
+    position: absolute;
+    overflow: visible;
+    width: 150px;
+    height: 27px;
+    left: 131px;
+    top: 1517px;
+}
+#BOOK_NOW {
+    left: 162px;
+    top: 1521px;
+    position: absolute;
+    overflow: visible;
+    width: 89px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s linear;
+    --web-action-type: page;
+    --web-action-target: Artboard___2.html;
+    cursor: pointer;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(237,237,237,1);
+}
+#Rectangle_78 {
+    fill: rgba(154,32,24,1);
+}
+.Rectangle_78 {
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    height: 27px;
+    left: 285px;
+    top: 1517px;
+}
+#Rectangle_84 {
+    fill: rgba(221,221,221,1);
+}
+.Rectangle_84 {
+    position: absolute;
+    overflow: visible;
+    width: 412px;
+    height: 431px;
+    left: 0px;
+    top: 5079px;
+}
+#Rectangle_85 {
+    fill: rgba(221,221,221,1);
+}
+.Rectangle_85 {
+    position: absolute;
+    overflow: visible;
+    width: 412px;
+    height: 431px;
+    left: 0px;
+    top: 5079px;
+}
+#Footer {
+    position: absolute;
+    width: 412px;
+    height: 442px;
+    left: 0px;
+    top: 5079px;
+    overflow: visible;
+}
+#logo {
+    position: absolute;
+    width: 412px;
+    height: 442px;
+    left: 300px;
+    top: -0.001px;
+    overflow: visible;
+}
+#Layer_25 {
+    opacity: 0.904;
+    position: absolute;
+    width: 412px;
+    height: 442px;
+    left: 0px;
+    top: 0.001px;
+    overflow: visible;
+}
+#Nav_copy {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 2329px;
+    top: -12406.999px;
+    overflow: visible;
+}
+#Rectangle_5_copy_8 {
+    fill: rgba(207,102,102,1);
+}
+.Rectangle_5_copy_8 {
+    position: absolute;
+    overflow: visible;
+    width: 378px;
+    height: 3px;
+    left: 17px;
+    top: 232.001px;
+}
+#Couples_Resort___1198_Osprey_R {
+    left: 19px;
+    top: 21.37px;
+    position: absolute;
+    overflow: visible;
+    width: 363px;
+    height: 375.958984375px;
+    text-align: left;
+    font-family: Sanchez-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: rgba(242,242,242,1);
+}
+#All_prices_and_services_on_thi {
+    left: 15px;
+    top: 262px;
+    position: absolute;
+    overflow: visible;
+    width: 383px;
+    height: 67px;
+    line-height: 18px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Sanchez-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(247,247,247,1);
+}
+#Scroll_Group_1 {
+    mix-blend-mode: normal;
+    position: absolute;
+    width: 412px;
+    height: 128px;
+    left: 0px;
+    top: 257px;
+    overflow: hidden;
+}
+#SommeliersChoiceAwardsUS-09072 {
+    position: absolute;
+    width: 500px;
+    height: 199px;
+    left: -58px;
+    top: -51px;
+    overflow: visible;
+}
+#BREAKFAST_ROOM_SERVICE_HOURS {
+    left: 23px;
+    top: 455px;
+    position: absolute;
+    overflow: visible;
+    width: 117px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#LUNCH_MENU {
+    left: 23px;
+    top: 513px;
+    position: absolute;
+    overflow: visible;
+    width: 87px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#DINING_ROOM__OPEN {
+    left: 23px;
+    top: 556px;
+    position: absolute;
+    overflow: visible;
+    width: 91px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#Rectangle_86 {
+    fill: rgba(154,32,24,1);
+}
+.Rectangle_86 {
+    position: absolute;
+    overflow: visible;
+    width: 6px;
+    height: 20px;
+    left: 15px;
+    top: 460px;
+}
+#Rectangle_87 {
+    fill: rgba(154,32,24,1);
+}
+.Rectangle_87 {
+    position: absolute;
+    overflow: visible;
+    width: 6px;
+    height: 20px;
+    left: 15px;
+    top: 511px;
+}
+#Rectangle_88 {
+    fill: rgba(154,32,24,1);
+}
+.Rectangle_88 {
+    position: absolute;
+    overflow: visible;
+    width: 6px;
+    height: 20px;
+    left: 15px;
+    top: 560px;
+}
+#Line_30 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_30 {
+    overflow: visible;
+    position: absolute;
+    width: 10px;
+    height: 1px;
+    left: 141.5px;
+    top: 820.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Polygon_23 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Polygon_23 {
+    overflow: visible;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    transform: matrix(1,0,0,1,152,816) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Line_31 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_31 {
+    overflow: visible;
+    position: absolute;
+    width: 10px;
+    height: 1px;
+    left: 121px;
+    top: 520px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Polygon_22 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Polygon_22 {
+    overflow: visible;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    transform: matrix(1,0,0,1,132,515) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Line_32 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_32 {
+    overflow: visible;
+    position: absolute;
+    width: 10px;
+    height: 1px;
+    left: 117px;
+    top: 569px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Polygon_24 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Polygon_24 {
+    overflow: visible;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    transform: matrix(1,0,0,1,128,564) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#DAILY_FEATURES {
+    left: 16px;
+    top: 870px;
+    position: absolute;
+    overflow: visible;
+    width: 107px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#STARTERS {
+    left: 16px;
+    top: 891px;
+    position: absolute;
+    overflow: visible;
+    width: 65px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#ENTREES {
+    left: 16px;
+    top: 912px;
+    position: absolute;
+    overflow: visible;
+    width: 59px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#DESSERTS {
+    left: 16px;
+    top: 933px;
+    position: absolute;
+    overflow: visible;
+    width: 65px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#DRINKS_-_FROM_11AM {
+    left: 16px;
+    top: 1347px;
+    position: absolute;
+    overflow: visible;
+    width: 133px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+#Polygon_25 {
+    fill: rgba(154,32,24,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Polygon_25 {
+    overflow: visible;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    transform: matrix(1,0,0,1,10,873) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Polygon_26 {
+    fill: rgba(154,32,24,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Polygon_26 {
+    overflow: visible;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    transform: matrix(1,0,0,1,10,894) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Polygon_27 {
+    fill: rgba(154,32,24,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Polygon_27 {
+    overflow: visible;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    transform: matrix(1,0,0,1,10,915) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Polygon_28 {
+    fill: rgba(154,32,24,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Polygon_28 {
+    overflow: visible;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    transform: matrix(1,0,0,1,10,936) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Polygon_29 {
+    fill: rgba(154,32,24,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Polygon_29 {
+    overflow: visible;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    transform: matrix(1,0,0,1,10,957) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Polygon_30 {
+    fill: rgba(154,32,24,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Polygon_30 {
+    overflow: visible;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    transform: matrix(1,0,0,1,10,978) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Polygon_31 {
+    fill: rgba(154,32,24,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Polygon_31 {
+    overflow: visible;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    transform: matrix(1,0,0,1,10,999) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Rectangle_59 {
+    fill: rgba(154,32,24,1);
+}
+.Rectangle_59 {
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    height: 27px;
+    left: 103px;
+    top: 1517px;
+}
+
+
+ #footer-hero {
+    background-image: url(../images/footer.jpg);
+     background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+ }
+ 
+ #footer-hero h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+ }
+ 
+ #footer-privacy .line-seperator {
+    margin-top: 0px;
+ }
+ 
+ #footer-contact-info h3 {
+    font-size: 23px;
+ }
+ 
+ #footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+ }

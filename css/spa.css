@@ -1,0 +1,1600 @@
+/*
+Couples Resort Responsive Build
+4 column grid as per XD file
+ */
+
+/* 
+    CSS Guide 
+
+    1.  General Styles
+    2.  Main Nav
+    3.  Main Hero Image
+    4.  Main Hero Image Contact
+    5.  Why Couples Resort
+    6.  About & FAQ
+    7.  Contact Form
+    8.  Footer 
+ */
+
+
+ /* 1. ---General Styles--- */
+
+ 
+
+ #mobile-outline {
+   outline: 20px solid #333;
+   max-width: 412px;
+   margin: 20px auto 20px auto;
+   border-radius: 10px;
+} 
+
+body {
+   color: #626262;
+   font-family: 'Sanchez', 'Times New Roman', serif;
+}
+
+a {
+   text-decoration: none;
+   transition: all .5s ease-in-out;
+}
+
+input, textarea {
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+
+.cr-red {
+   color: #9a2018;
+}
+
+
+/* 2. ---Main Nav--- */
+
+ #main-nav label img {
+   width: 20px;
+   height: 20px;
+   margin-top: 15px;
+   cursor: pointer;
+   transition: all .5s ease;
+   margin-bottom: 20px; 
+} 
+
+#main-nav input, #burger-con {
+   display: none;
+}
+
+
+/*   ~ sibling selector   */
+
+
+#main-nav input:checked ~ #burger-con {
+   display: block;
+}
+
+#main-nav input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#main-nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+#main-nav ul li a {
+   display: block;
+   padding: 10px 0 10px 0;
+   text-align: center;
+   color: #626262;
+}
+
+#main-nav ul li {
+   border-bottom: 1px solid #efefef;
+}
+
+
+
+#main-nav ul li:first-child {
+   border-top: 1px solid #efefef;
+}
+
+#main-nav ul li:last-child {
+   margin-bottom: 10px;
+} 
+
+
+
+#logo {
+   margin-bottom: 20px;
+   max-width: 382px;
+}
+
+
+/* 3. ---Main Hero Image--- */
+
+#hero {
+   background: url(../images/spa-hero.png) no-repeat;
+   height: 200px;
+}
+
+.book-now {
+   background-color: #9a2018;
+   color: #fff;
+   font-size: 16px;
+   transition: background-color 500ms linear;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-style: italic;
+   transition:all 0.3s ease;
+   cursor: pointer;
+}
+
+.book-now:hover {
+   background-color: rgb(196, 28, 28);
+}
+
+#book-now-hero {
+   height: 67px;
+}
+
+#hero-heading-box {
+   align-self: auto;
+}
+
+.hero-img-h2, .hero-img-h3 {
+   background: rgb(255, 255, 255);
+   padding: 10px 15px;
+   font-size: 14px;
+   left: 746px;
+}
+
+.hero-img-h2 span,  .hero-img-h3 span {
+   color: #9a2018;
+   font-size: 12px;
+   left: 746px;
+}
+
+.line-separator {
+   margin-top: 20px;
+   border-top: solid 3px #CF6666;
+   padding-top: 20px;
+}
+
+#hero-summary p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+
+
+#FIP_-_412_w___A_Page_of_your_Choice_from_Couples_Resort__1 {
+   position: absolute;
+   width: 412px;
+   height: 5180px;
+   left: 746px;
+   background-color: rgba(255,255,255,1);
+   overflow: hidden;
+ 
+}
+#Touching_is_healing_from_a_mot {
+   left: 30px;
+   top: 602px;
+   position: absolute;
+   overflow: visible;
+   width: 354px;
+   height: 400px;
+   text-align: center;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(92,92,92,1);
+}
+#Rectangle_27_o {
+   fill: rgba(221,221,221,1);
+}
+.Rectangle_27_o {
+   position: absolute;
+   overflow: visible;
+   width: 412px;
+   height: 431px;
+   left: 0px;
+   top: 4740px;
+}
+#Rectangle_27_o {
+   fill: rgba(221,221,221,1);
+}
+.Rectangle_27_o {
+   position: absolute;
+   overflow: visible;
+   width: 412px;
+   height: 431px;
+   left: 0px;
+   top: 4740px;
+}
+#Footer {
+   position: absolute;
+   width: 1578px;
+   height: 1914.001px;
+   left: -1166px;
+   top: 4739.999px;
+   overflow: visible;
+}
+#logo_2 {
+   position: absolute;
+   width: 412px;
+   height: 442px;
+   left: 1166px;
+   top: 0px;
+   overflow: visible;
+}
+#Layer_25 {
+   opacity: 0.904;
+   position: absolute;
+   width: 412px;
+   height: 442px;
+   left: 0px;
+   top: 0px;
+   overflow: visible;
+}
+#Nav_copy {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   left: -10261px;
+   top: 1454px;
+   overflow: visible;
+}
+#Rectangle_5_copy_8 {
+   fill: rgba(207,102,102,1);
+   stroke: rgba(56,56,53,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: butt;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Rectangle_5_copy_8 {
+   position: absolute;
+   overflow: visible;
+   width: 379px;
+   height: 4px;
+   left: 17px;
+   top: 232.001px;
+}
+#Couples_Resort___1198_Osprey_R {
+   left: 19px;
+   top: 21.369px;
+   position: absolute;
+   overflow: visible;
+   width: 363px;
+   height: 375.958984375px;
+   text-align: left;
+   font-family: Sanchez-Regular;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 28px;
+   color: rgba(242,242,242,1);
+}
+#All_prices_and_services_on_thi {
+   left: 1181px;
+   top: 262.001px;
+   position: absolute;
+   overflow: visible;
+   width: 383px;
+   height: 67px;
+   line-height: 18px;
+   margin-top: -4px;
+   text-align: left;
+   font-family: Sanchez-Regular;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 10px;
+   color: rgba(247,247,247,1);
+}
+#All_prices_and_services_on_thi_w {
+   left: 0px;
+   top: 1837.001px;
+   position: absolute;
+   overflow: visible;
+   width: 987px;
+   height: 77px;
+   line-height: 30px;
+   margin-top: -8.5px;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+   color: rgba(255,255,255,1);
+}
+#Path_20 {
+   fill: rgba(207,102,102,1);
+   stroke: rgba(207,102,102,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: butt;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Path_20 {
+   overflow: visible;
+   position: absolute;
+   width: 341px;
+   height: 1px;
+   left: 35.5px;
+   top: 35px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Line_32 {
+   fill: transparent;
+   stroke: rgba(207,102,102,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: butt;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_32 {
+   overflow: visible;
+   position: absolute;
+   width: 341px;
+   height: 1px;
+   left: 35.5px;
+   top: 115.5px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Line_45 {
+   fill: transparent;
+   stroke: rgba(207,102,102,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: butt;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_45 {
+   overflow: visible;
+   position: absolute;
+   width: 341px;
+   height: 1px;
+   left: 35.5px;
+   top: 1032.5px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Line_54 {
+   fill: transparent;
+   stroke: rgba(207,102,102,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: butt;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_54 {
+   overflow: visible;
+   position: absolute;
+   width: 341px;
+   height: 1px;
+   left: 35.5px;
+   top: 1908.5px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Line_55 {
+   fill: transparent;
+   stroke: rgba(207,102,102,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: butt;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_55 {
+   overflow: visible;
+   position: absolute;
+   width: 341px;
+   height: 1px;
+   left: 35.5px;
+   top: 2650.5px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Line_60 {
+   fill: transparent;
+   stroke: rgba(207,102,102,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: butt;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_60 {
+   overflow: visible;
+   position: absolute;
+   width: 341px;
+   height: 1px;
+   left: 35.5px;
+   top: 3531.5px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Line_61 {
+   fill: transparent;
+   stroke: rgba(207,102,102,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: butt;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_61 {
+   overflow: visible;
+   position: absolute;
+   width: 341px;
+   height: 1px;
+   left: 35.5px;
+   top: 3759px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Line_63 {
+   fill: transparent;
+   stroke: rgba(207,102,102,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: butt;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_63 {
+   overflow: visible;
+   position: absolute;
+   width: 341px;
+   height: 1px;
+   left: 36px;
+   top: 4437px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Line_62 {
+   fill: transparent;
+   stroke: rgba(112,112,112,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: butt;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_62 {
+   overflow: visible;
+   position: absolute;
+   width: 341px;
+   height: 1px;
+   left: 35.5px;
+   top: 4184px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_83 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_83 {
+   position: absolute;
+   overflow: visible;
+   width: 279px;
+   height: 59px;
+   left: 67px;
+   top: 47px;
+}
+#Spa_Activities {
+   left: 117px;
+   top: 53px;
+   position: absolute;
+   overflow: visible;
+   width: 176px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 30px;
+   color: rgba(255,255,255,1);
+}
+#Rectangle_84 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_84 {
+   position: absolute;
+   overflow: visible;
+   width: 210px;
+   height: 32px;
+   left: 101px;
+   top: 128px;
+}
+#Rectangle_104 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_104 {
+   position: absolute;
+   overflow: visible;
+   width: 342px;
+   height: 32px;
+   left: 35px;
+   top: 1045px;
+}
+#Rectangle_110 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_110 {
+   position: absolute;
+   overflow: visible;
+   width: 177px;
+   height: 32px;
+   left: 118px;
+   top: 1921px;
+}
+#Rectangle_113 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_113 {
+   position: absolute;
+   overflow: visible;
+   width: 191px;
+   height: 32px;
+   left: 111px;
+   top: 2663px;
+}
+#Rectangle_119 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_119 {
+   position: absolute;
+   overflow: visible;
+   width: 191px;
+   height: 32px;
+   left: 111px;
+   top: 4450px;
+}
+#Rectangle_117 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_117 {
+   position: absolute;
+   overflow: visible;
+   width: 127px;
+   height: 32px;
+   left: 144px;
+   top: 3544px;
+}
+#Rectangle_118 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_118 {
+   position: absolute;
+   overflow: visible;
+   width: 310px;
+   height: 40px;
+   left: 51px;
+   top: 3772px;
+}
+#Registered_Massage_Therapy {
+   left: 112px;
+   top: 134px;
+   position: absolute;
+   overflow: visible;
+   width: 190px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(255,255,255,1);
+}
+#Rectangle_86 {
+   fill: rgba(237,237,237,1);
+}
+.Rectangle_86 {
+   position: absolute;
+   overflow: visible;
+   width: 342px;
+   height: 240px;
+   left: 35px;
+   top: 175px;
+}
+#massage-2768832_1280 {
+   position: absolute;
+   width: 342px;
+   height: 240px;
+   left: 35px;
+   top: 177px;
+   overflow: visible;
+}
+#massage-5578598_1280 {
+   position: absolute;
+   width: 342px;
+   height: 240px;
+   left: 35px;
+   top: 1099px;
+   overflow: visible;
+}
+#spa-4481538_1280 {
+   position: absolute;
+   width: 342px;
+   height: 240px;
+   left: 36.5px;
+   top: 2717px;
+   overflow: visible;
+}
+#vecteezy_articulos-de-spa-de-l {
+   position: absolute;
+   width: 103px;
+   height: 92px;
+   left: 71px;
+   top: 4489px;
+   overflow: visible;
+}
+#n_023-winner-shield-colour-350 {
+   position: absolute;
+   width: 103px;
+   height: 92px;
+   left: 239px;
+   top: 4489px;
+   overflow: visible;
+}
+#vecteezy_woman-receiving-foot- {
+   position: absolute;
+   width: 342px;
+   height: 240px;
+   left: 35px;
+   top: 1975px;
+   overflow: visible;
+}
+#Rectangle_112 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_112 {
+   position: absolute;
+   overflow: visible;
+   width: 342px;
+   height: 123px;
+   left: 35px;
+   top: 2439px;
+}
+#Line_70 {
+   fill: transparent;
+   stroke: rgba(207,102,102,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: square;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_70 {
+   overflow: visible;
+   position: absolute;
+   width: 17.41px;
+   height: 15.411px;
+   left: 391px;
+   top: 2824px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Line_71 {
+   fill: transparent;
+   stroke: rgba(207,102,102,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: square;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_71 {
+   overflow: visible;
+   position: absolute;
+   width: 17.406px;
+   height: 14.407px;
+   left: 391px;
+   top: 2838px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Line_68 {
+   fill: transparent;
+   stroke: rgba(207,102,102,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: square;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_68 {
+   overflow: visible;
+   position: absolute;
+   width: 17.41px;
+   height: 15.411px;
+   left: 8px;
+   top: 2824px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Line_69 {
+   fill: transparent;
+   stroke: rgba(207,102,102,1);
+   stroke-width: 1px;
+   stroke-linejoin: miter;
+   stroke-linecap: square;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_69 {
+   overflow: visible;
+   position: absolute;
+   width: 17.406px;
+   height: 14.407px;
+   left: 8px;
+   top: 2838px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_87 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_87 {
+   position: absolute;
+   overflow: visible;
+   width: 125px;
+   height: 27px;
+   left: 144px;
+   top: 561px;
+}
+#Rectangle_143 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_143 {
+   position: absolute;
+   overflow: visible;
+   width: 93px;
+   height: 27px;
+   left: 35px;
+   top: 544px;
+}
+#Rectangle_145 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_145 {
+   position: absolute;
+   overflow: visible;
+   width: 93px;
+   height: 27px;
+   left: 282px;
+   top: 544px;
+}
+#n_0_minutes {
+   left: 160px;
+   top: 561px;
+   position: absolute;
+   overflow: visible;
+   width: 94px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 19px;
+   color: rgba(255,255,255,1);
+}
+#n_0_minutes_bw {
+   left: 47px;
+   top: 548px;
+   position: absolute;
+   overflow: visible;
+   width: 69px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   color: rgba(255,255,255,1);
+}
+#n_0_minutes_bx {
+   left: 295px;
+   top: 548px;
+   position: absolute;
+   overflow: visible;
+   width: 69px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   color: rgba(255,255,255,1);
+}
+#Hot_Stones_Body_Molding_Indian {
+   left: 45px;
+   top: 1051px;
+   position: absolute;
+   overflow: visible;
+   width: 324px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(255,255,255,1);
+}
+#Rectangle_115 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_115 {
+   position: absolute;
+   overflow: visible;
+   width: 235px;
+   height: 37px;
+   left: 89px;
+   top: 2968px;
+}
+#Rectangle_109 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_109 {
+   position: absolute;
+   overflow: visible;
+   width: 86px;
+   height: 17px;
+   left: 16.5px;
+   top: 1487px;
+}
+#Rectangle_139 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_139 {
+   position: absolute;
+   overflow: visible;
+   width: 86px;
+   height: 17px;
+   left: 218.5px;
+   top: 1487px;
+}
+#Rectangle_108 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_108 {
+   position: absolute;
+   overflow: visible;
+   width: 86px;
+   height: 17px;
+   left: 107.5px;
+   top: 1487px;
+}
+#Rectangle_137 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_137 {
+   position: absolute;
+   overflow: visible;
+   width: 86px;
+   height: 17px;
+   left: 309.5px;
+   top: 1487px;
+}
+#n_0_minutes_b {
+   left: 30.5px;
+   top: 1487px;
+   position: absolute;
+   overflow: visible;
+   width: 59px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   color: rgba(255,255,255,1);
+}
+#n_0_minutes_ca {
+   left: 232.5px;
+   top: 1487px;
+   position: absolute;
+   overflow: visible;
+   width: 59px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   color: rgba(255,255,255,1);
+}
+#n_0_minutes_cb {
+   left: 121.5px;
+   top: 1487px;
+   position: absolute;
+   overflow: visible;
+   width: 59px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   color: rgba(255,255,255,1);
+}
+#n_0_minutes_cc {
+   left: 323.5px;
+   top: 1487px;
+   position: absolute;
+   overflow: visible;
+   width: 59px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   color: rgba(255,255,255,1);
+}
+#Experience_the_ultimate_in_rel {
+   left: 35px;
+   top: 1532px;
+   position: absolute;
+   overflow: visible;
+   width: 343px;
+   height: 320px;
+   line-height: 30px;
+   margin-top: -7.5px;
+   text-align: center;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(92,92,92,1);
+}
+#HandFoot_Treatments {
+   left: 132px;
+   top: 1927px;
+   position: absolute;
+   overflow: visible;
+   width: 150px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(255,255,255,1);
+}
+#Spa_Manicure_with_Polish_60_mi {
+   left: 36px;
+   top: 2231px;
+   position: absolute;
+   overflow: visible;
+   width: 342px;
+   height: 180px;
+   text-align: center;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(92,92,92,1);
+}
+#Paraffin_Hand_or_Foot_Treatmen {
+   left: 35px;
+   top: 2456px;
+   position: absolute;
+   overflow: visible;
+   width: 343px;
+   height: 90px;
+   text-align: center;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 11px;
+   color: rgba(255,255,255,1);
+}
+#NOTE_WE_USE_OPI_NAIL_POLISH_IN {
+   left: 36px;
+   top: 2576px;
+   position: absolute;
+   overflow: visible;
+   width: 342px;
+   height: 62px;
+   text-align: center;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(92,92,92,1);
+}
+#Scrubs_Wraps_and_Facials {
+   left: 122px;
+   top: 2669px;
+   position: absolute;
+   overflow: visible;
+   width: 170px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(255,255,255,1);
+}
+#Scrub_Wrap_and_Facial_in_the_S {
+   left: 96px;
+   top: 2977px;
+   position: absolute;
+   overflow: visible;
+   width: 221px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(255,255,255,1);
+}
+#Rectangle_116 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_116 {
+   position: absolute;
+   overflow: visible;
+   width: 86px;
+   height: 17px;
+   left: 163px;
+   top: 3104px;
+}
+#n__hour_45_min {
+   left: 169px;
+   top: 3104px;
+   position: absolute;
+   overflow: visible;
+   width: 75px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   color: rgba(255,255,255,1);
+}
+#Experience_Organic_luxury_at_i {
+   left: 36px;
+   top: 3147px;
+   position: absolute;
+   overflow: visible;
+   width: 342px;
+   height: 363px;
+   line-height: 30px;
+   margin-top: -7.5px;
+   text-align: center;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(92,92,92,1);
+}
+#Waxing_Services {
+   left: 155px;
+   top: 3550px;
+   position: absolute;
+   overflow: visible;
+   width: 107px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(255,255,255,1);
+}
+#Space_available_on_a_walk-in_b {
+   left: 37px;
+   top: 3598px;
+   position: absolute;
+   overflow: visible;
+   width: 340px;
+   height: 150px;
+   text-align: center;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(92,92,92,1);
+}
+#Spa_Policies_Information_and_U {
+   left: 68px;
+   top: 3772px;
+   position: absolute;
+   overflow: visible;
+   width: 277px;
+   white-space: nowrap;
+   text-align: center;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(255,255,255,1);
+}
+#We_have_6_Spa_Treatment_Rooms_ {
+   left: 35px;
+   top: 3825px;
+   position: absolute;
+   overflow: visible;
+   width: 343px;
+   height: 359px;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 10px;
+   color: rgba(92,92,92,1);
+}
+#It_is_very_rare_that_one_of_ou {
+   left: 36px;
+   top: 4191px;
+   position: absolute;
+   overflow: visible;
+   width: 342px;
+   height: 239px;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 10px;
+   color: rgba(92,92,92,1);
+}
+#Spa_Products_and_Awards {
+   left: 122px;
+   top: 4456px;
+   position: absolute;
+   overflow: visible;
+   width: 169px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   color: rgba(255,255,255,1);
+}
+#We_are_proud_to_offer_the_Emin {
+   left: 36px;
+   top: 4594px;
+   position: absolute;
+   overflow: visible;
+   width: 342px;
+   height: 279px;
+   text-align: center;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   color: rgba(92,92,92,1);
+}
+#Screenshot_2023-12-06_005520 {
+   position: absolute;
+   width: 108px;
+   height: 51px;
+   left: 269px;
+   top: 4382px;
+   overflow: visible;
+}
+#Rectangle_132 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_132 {
+   position: absolute;
+   overflow: visible;
+   width: 125px;
+   height: 116px;
+   left: 144px;
+   top: 433px;
+}
+#Rectangle_144 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_144 {
+   position: absolute;
+   overflow: visible;
+   width: 93px;
+   height: 89px;
+   left: 35px;
+   top: 443px;
+}
+#Rectangle_146 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_146 {
+   position: absolute;
+   overflow: visible;
+   width: 93px;
+   height: 89px;
+   left: 282px;
+   top: 443px;
+}
+#n_86 {
+   left: 151px;
+   top: 454px;
+   position: absolute;
+   overflow: visible;
+   width: 111px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 51px;
+   color: rgba(255,255,255,1);
+}
+#n_6 {
+   left: 43px;
+   top: 461px;
+   position: absolute;
+   overflow: visible;
+   width: 66px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 40px;
+   color: rgba(255,255,255,1);
+}
+#n_76 {
+   left: 286px;
+   top: 461px;
+   position: absolute;
+   overflow: visible;
+   width: 87px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 40px;
+   color: rgba(255,255,255,1);
+}
+#Rectangle_133 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_133 {
+   position: absolute;
+   overflow: visible;
+   width: 177px;
+   height: 80px;
+   left: 16.5px;
+   top: 1399.5px;
+}
+#Rectangle_138 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_138 {
+   position: absolute;
+   overflow: visible;
+   width: 177px;
+   height: 80px;
+   left: 218.5px;
+   top: 1399.5px;
+}
+#Line_65 {
+   fill: transparent;
+   stroke: rgba(255,255,255,1);
+   stroke-width: 4.900000095367432px;
+   stroke-linejoin: miter;
+   stroke-linecap: butt;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_65 {
+   overflow: visible;
+   position: absolute;
+   width: 4.9px;
+   height: 96px;
+   left: 105px;
+   top: 1391.5px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#Line_72 {
+   fill: transparent;
+   stroke: rgba(255,255,255,1);
+   stroke-width: 4.900000095367432px;
+   stroke-linejoin: miter;
+   stroke-linecap: butt;
+   stroke-miterlimit: 4;
+   shape-rendering: auto;
+}
+.Line_72 {
+   overflow: visible;
+   position: absolute;
+   width: 4.9px;
+   height: 96px;
+   left: 307px;
+   top: 1391.5px;
+   transform: matrix(1,0,0,1,0,0);
+}
+#n_0 {
+   left: 36px;
+   top: 1420.5px;
+   position: absolute;
+   overflow: visible;
+   width: 48px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 29px;
+   color: rgba(255,255,255,1);
+}
+#n_66 {
+   left: 230px;
+   top: 1420px;
+   position: absolute;
+   overflow: visible;
+   width: 64px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 29px;
+   color: rgba(255,255,255,1);
+}
+#n_32 {
+   left: 119px;
+   top: 1420.5px;
+   position: absolute;
+   overflow: visible;
+   width: 64px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 29px;
+   color: rgba(255,255,255,1);
+}
+#n_18 {
+   left: 321px;
+   top: 1420.5px;
+   position: absolute;
+   overflow: visible;
+   width: 64px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 29px;
+   color: rgba(255,255,255,1);
+}
+#Rectangle_134 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_134 {
+   position: absolute;
+   overflow: visible;
+   width: 86px;
+   height: 80px;
+   left: 163px;
+   top: 3018px;
+}
+#n_70 {
+   left: 175px;
+   top: 3039px;
+   position: absolute;
+   overflow: visible;
+   width: 64px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 29px;
+   color: rgba(255,255,255,1);
+}
+#Rectangle_140 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_140 {
+   position: absolute;
+   overflow: visible;
+   width: 178px;
+   height: 22px;
+   left: 16px;
+   top: 1370px;
+}
+#Rectangle_141 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_141 {
+   position: absolute;
+   overflow: visible;
+   width: 87px;
+   height: 22px;
+   left: 218px;
+   top: 1370px;
+}
+#Rectangle_142 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_142 {
+   position: absolute;
+   overflow: visible;
+   width: 87px;
+   height: 22px;
+   left: 309px;
+   top: 1370px;
+}
+#Relaxing_Body_Molding_Treatmen {
+   left: 31px;
+   top: 1373px;
+   position: absolute;
+   overflow: visible;
+   width: 150px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 10px;
+   color: rgba(255,255,255,1);
+}
+#Hot_Stone_Therapy {
+   left: 225px;
+   top: 1374px;
+   position: absolute;
+   overflow: visible;
+   width: 75px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 9px;
+   color: rgba(255,255,255,1);
+}
+#Ayurveda_Indian__Head_Massage {
+   left: 322px;
+   top: 1369px;
+   position: absolute;
+   overflow: visible;
+   width: 61px;
+   white-space: nowrap;
+   text-align: center;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 8px;
+   color: rgba(255,255,255,1);
+}
+#Rectangle_147 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_147 {
+   position: absolute;
+   overflow: visible;
+   width: 86px;
+   height: 17px;
+   left: 266px;
+   top: 3099px;
+}
+#n__hour_30_min {
+   left: 272px;
+   top: 3099px;
+   position: absolute;
+   overflow: visible;
+   width: 75px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   color: rgba(255,255,255,1);
+}
+#Rectangle_148 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_148 {
+   position: absolute;
+   overflow: visible;
+   width: 86px;
+   height: 71px;
+   left: 266px;
+   top: 3021px;
+}
+#n_73 {
+   left: 278px;
+   top: 3038px;
+   position: absolute;
+   overflow: visible;
+   width: 64px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 29px;
+   color: rgba(255,255,255,1);
+}
+#Rectangle_149 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_149 {
+   position: absolute;
+   overflow: visible;
+   width: 86px;
+   height: 17px;
+   left: 60px;
+   top: 3099px;
+}
+#n__hour_15_min {
+   left: 66px;
+   top: 3099px;
+   position: absolute;
+   overflow: visible;
+   width: 75px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   color: rgba(255,255,255,1);
+}
+#Rectangle_150 {
+   fill: rgba(154,32,24,1);
+}
+.Rectangle_150 {
+   position: absolute;
+   overflow: visible;
+   width: 86px;
+   height: 71px;
+   left: 60px;
+   top: 3021px;
+}
+#n_32_dj {
+   left: 72px;
+   top: 3038px;
+   position: absolute;
+   overflow: visible;
+   width: 64px;
+   white-space: nowrap;
+   text-align: left;
+   font-family: Segoe UI;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 29px;
+   color: rgba(255,255,255,1);
+}
+
+
+
+#footer-hero {
+   background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+   color: #fff;
+   font-size: 12px;
+   margin-top: 40px;
+   padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+   margin-top: 30px;
+   font-size: 28px;
+   margin-bottom: 16px;
+}
+
+#footer-privacy .line-seperator {
+   margin-top: 0px;
+}
+
+#footer-contact-info h3 {
+   font-size: 23px;
+}
+
+#footer-contact-info p {
+   margin-bottom: 20px;
+   line-height: 18px;
+   font-size: 11px;
+}
